@@ -1,0 +1,17 @@
+Okay, so the first thing is OSI model and i dont even know what is OSI, so we learn it today.
+
+## OSI
+
+Indi, OSI modeli eslinde ag baglantilarini 7 yere bolen bir sistemdir.
+OSI data modeli bilgisayar agi ucun evrensel bir dildir.
+OSI - Open Systems Interconnection demekdi.
+
+OSI modelinin 7 qati vardir ve bunlardir:
+
+*Fiziki qat - qisaca fiziksel katman etrafda gorduyumuz olan fiber optik kablolar ola biler bluetooth nfc kimi seyler ola biler qisaca bize bele fiziki yollarla data oturmeye komek eden seylerdi.
+*Melumat baglantisi tebeqesi - melumat baglantisi tebeqesi aralarinda fiziki qat olan bir sebeke uzerinden iki aleti birbirine baglamaq ucun istifade olunan texnologiyadir. Ethernet kimi. MAC ve LLC qisimleri vardir.
+*Sebeke qati - sebeke qati paylanmis sebekelerde ve ya coxsayli devicei olan bir sebekenin marsutu idareetmesi, yonlendirmesi ve adresslemesi ve s. haqqindadir. Internetde umumen IPV4 istifade olunur ve IPV6ya kecid olunur
+*Aktarim, neqliyyat qati - bu artiq sebeke paketlerinin itki ve xeta olmadan danismasi ucundur. Burda xususen itki olmayan baglanti tabanli TCP ve itki olan baglantisiz UDP protokollari istifade olunur.
+*Oturum - Oturum protokolu eyni sebekede olan iki appin sebeke Koordinasiayasindan mukellefdir. Daha cox NFS ve SMB protokollari istifade olunur.
+*Sunum qati - daha cox geden data ile elaqelidi responsun ne olacagi kimi. Misal olaraq csv, json ya da html olacagi kimi ve s.
+*Application qati - Application qatmani xususi bir appin sebeke protokolu ile elaqlidir (standart bir sebeke protokolu). Misal olaraq HTTP, HTTPS. ve yaxud email istemcilerinin istifade etdiyi POP3 zad.
