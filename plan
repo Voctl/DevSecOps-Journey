@@ -1,39 +1,24 @@
 4 Həftəlik Network Planı
 
 Həftə 1: Şəbəkənin əsasları və Protokollar
-
     Məqsəd: Paketin bir nöqtədən digərinə necə getdiyini başa düşmək.
-
     Mövzular: OSI modeli (hər qatın vəzifəsi), TCP vs UDP (3-way handshake), IP ünvanlanması (Subnetting, CIDR), ARP.
-
     Praktika: Wireshark/tcpdump ilə öz maşınından çıxan trafikin analizini et.
-
     Resurs: Practical Networking (YouTube) - bu kanal sənin yeni "kitabın" olacaq.
 
 Həftə 2: Routing, Switching və Linux Network Stack
-
     Məqsəd: Şəbəkənin "beynini" (Router) anlamaq.
-
     Mövzular: Static vs Dynamic Routing (OSPF, BGP anlayışları), Linux-da IP forwarding, Virtual Ethernet (veth) cütləri, Bridge-lər.
-
     Praktika: Linux maşınını router kimi konfiqurasiya et (IP forwarding aktivləşdir).
-
     Resurs: Computer Networking: A Top-Down Approach kitabı (Kurose/Ross).
 
 Həftə 3: Network Security (Defensive & Offensive)
-
     Məqsəd: Şəbəkəni qorumaq və hücumlara qarşı dayanıqlılıq.
-
     Mövzular: VPN (WireGuard - minimalist olduğu üçün sənə uyğundur), Firewall (iptables/nftables), DDoS müdafiəsi, IDS/IPS (Suricata/Snort).
-
     Praktika: Öz WireGuard VPN serverini qur və trafikini onun üzərindən keçir.
-
     Resurs: Practical Packet Analysis (Chris Sanders).
 
 Həftə 4: Infrastructure Automation & Advanced Lab
-
     Məqsəd: Şəbəkəni kodla idarə etmək.
-
     Mövzular: Ansible ilə şəbəkə avtomatlaşdırılması, Python ilə network script-ləri (Scapy kitabxanası - paketləri özün yarat!), Network Namespace-lər (Docker-in arxa planı).
-
     Praktika: Scapy ilə öz ARP-spoofing hücumunu simulyasiya et və sonra ona qarşı müdafiə yaz.
