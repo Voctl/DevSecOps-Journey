@@ -1,0 +1,2 @@
+# DevSecOps-Journey
+I decided that I learn about DevSecOps in 1 month and I ll do that bcs I am divine intellect
