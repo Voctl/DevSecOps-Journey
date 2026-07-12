@@ -1,0 +1,55 @@
+DEVSECOPS LEARNING JOURNEY 2026
+
+Meqsed: 1 ay erzinde sistem muhendisliyi biliklerini DevSecOps prinsipleri ile birlesdirerek, tehlukesizlik muhendisliyi sahesinde mutexessis seviyyesine catmaq.
+
+HAFTELIK PLAN:
+
+HEFTE 1: SECURITY FUNDAMENTALS & NETWORKING
+Meqsed: Sistemlerin arxitekturasini ve trafikin necemi "sindirila" bileceyini basa dusmek.
+
+* Network Security: OSI modeli, TCP/IP, TLS/SSL protokolunun is prinsipi.
+* Linux Hardening: SSH Key-based autentifikasiya, iptables/nftables ile portlarin idare olunmasi (SysVinit uyumlu).
+* Identity Management: RBAC (Role-Based Access Control) prinsipleri.
+* Praktika: OverTheWire - Bandit (Seviyye 1-20).
+* Proyekt: Serveri hardening etmek ucun avtomatlasdirilmis bash skriptlerinin yazilmasi.
+
+HEFTE 2: SHIFT-LEFT SECURITY (SAST & SCA)
+Meqsed: Kodu ise salmazdan evvel onun "tehlukesizlik rentgeninden" kecirilmesi.
+
+* SAST (Static Analysis): Kodun icindeki mentiqi bosluqlarin tapilmasi (Semgrep, SonarQube).
+* SCA (Composition Analysis): Asililiqlarin (dependencies) tehlukesizliyi (Snyk, Trivy).
+* Pipeline: GitHub Actions vasitesile kod push olunan kimi avtomatik scan prosesinin qurulmasi.
+* Praktika: Kicik bir C/Go layiyesini pipeline-a bagla ve 'security gates' (tehlukesizlik kecidi) qur.
+
+HEFTE 3: CONTAINER & IAC SECURITY
+Meqsed: Infrastrukturun ve konteynerlerin tehlukesizliyi.
+
+* Container Security: Image-lerin skan edilmesi, Rootless Docker/Podman istifadesi.
+* IaC Security: Terraform/Kubernetes fayllarinin checkov ve ya tfsec ile tehlukesizliyinin yoxlanilmasi.
+* Secret Management: HashiCorp Vault ve ya GitHub Secrets istifade ederek parollarin koddan ayrilmasi.
+* Praktika: Dockerfile-lari 'distroless' formatina cevir ve image olcusunu/tehlukesizliyini optimallasdir.
+
+HEFTE 4: RUNTIME SECURITY & INCIDENT RESPONSE
+Meqsed: Canli sistemde hucumlari askar etmek ve cavab vermek.
+
+* Runtime Security: Falco ve ya custom eBPF proqramlari (Devuan/SysVinit uyumlu runtime monitorinqi).
+* Monitoring: Loglarin (ELK/Loki/Grafana) merkezlesdirilmesi ve Anomaly Detection.
+* Incident Response: Hucum askar edende avtomatik bildiris (Discord/Telegram webhook) ve ya bloklama.
+* Praktika: Red-Team simulyasiyasi. Oz infrastrukturuna hucum et ve runtime monitorinqinin bunu tutub-tutmadigini yoxla.
+
+TECH STACK (TOOLBOX):
+
+* Pipeline: GitHub Actions
+* SAST/SCA: Semgrep, Snyk, Trivy
+* IaC Security: Checkov, tfsec
+* Runtime: Falco/eBPF, Grafana Loki
+* OS: Devuan Linux (No systemd)
+
+MESLEHET GORULEN RESURSLAR:
+
+1. Roadmap.sh DevSecOps
+2. OWASP Top 10 - Mutleq oxu.
+3. Practical DevSecOps
+4. Linux Kernel Development (Sistem derinliyi ucun).
+
+
